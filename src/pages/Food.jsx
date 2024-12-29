@@ -2,11 +2,12 @@ import React from 'react'
 import Header from '../components/Header'
 import Cuisines from '../components/Cuisines'
 import RecommendSection from '../components/RecommendSection'
+import BottomNavbar from '../components/BottomNavbar'
 
 const Food = () => {
     const cuisineslist=['Indian Cuisine','Chinese Cuisine']
   return (
-    <div>
+    <div className='mb-24'>
         <Header />
         <br />
         <div>
@@ -19,7 +20,8 @@ const Food = () => {
             </>
             ))} 
         </div>
-        <RecommendSection />  
+        <RecommendSection />
+        <BottomNavbar /> 
     </div>
   )
 }

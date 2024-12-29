@@ -5,7 +5,7 @@ import BottomNavbar from './BottomNavbar';
 
 const RecommendSection = () => {
   return (
-    <div className='mb-24'>
+    <div>
         <div className='flex justify-between mx-8 mb-4'>
             <h1 className='text-xl font-medium'>Recommended for you</h1>
             <p className='flex items-center gap-1 text-sm'>See more <MoveRight size={16}/></p>    
@@ -15,7 +15,7 @@ const RecommendSection = () => {
             <RecommendationCard />
             <RecommendationCard />
         </div>
-        <BottomNavbar />
+        
     </div>
   )
 }

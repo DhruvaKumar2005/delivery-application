@@ -12,7 +12,7 @@ import BottomNavbar from '../components/BottomNavbar'
 const Home = () => {
     const categories = [food, grocery, medicine, parcel]
   return (
-    <div className='overflow-hidden'>
+    <div className='mb-24'>
         <Navbar />
         <br />
         <div className='grid grid-cols-2'>
