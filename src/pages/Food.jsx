@@ -8,7 +8,7 @@ const Food = () => {
     const cuisineslist=['Indian Cuisine','Chinese Cuisine']
   return (
     <div className='mb-24'>
-        <Header />
+        <Header name={"Food Delivery"}/>
         <br />
         <div>
         {cuisineslist.map((cuisine, index) => (
