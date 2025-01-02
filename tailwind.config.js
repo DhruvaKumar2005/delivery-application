@@ -5,7 +5,7 @@ export default {
     extend: {
       fontFamily: { poppins: ["Poppins", "serif"] },
       boxShadow: {
-        even: "0 0 10px rgba(0, 0, 0, 0.5)",
+        even: "0 0 5px rgba(0, 0, 0, 0.2)",
       },
     },
   },
